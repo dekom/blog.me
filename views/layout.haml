@@ -3,7 +3,16 @@
     %title=yield_content :title
     %meta{charset: 'utf-8'}
 
+    -# Stylesheets
+    %link{rel: "stylesheet", href: "stylesheets/basic.css"}
+    =yield_content :css
+
+    -# JavaScripts
+    %script{type: "text/javascript", 
+            src: "http://code.jquery.com/jquery-latest.js"}
+
   %body
     %header=yield_content :header
     =yield
     %footer=yield_content :footer
+    =yield_content :js

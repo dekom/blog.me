@@ -1,0 +1,9 @@
+%html{lang: 'en'}
+  %head
+    %title=yield_content :title
+    %meta{charset: 'utf-8'}
+
+  %body
+    %header=yield_content :header
+    =yield
+    %footer=yield_content :footer

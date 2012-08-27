@@ -1,9 +1,12 @@
-%html
-  %head
-    %title My Sinatra App
+- content_for :title do
+  Xing Zhou's Website
 
-  %body
-    %h1 Hello World
-    %p
-      Server time:
-      =Time.now
+-content_for :header do
+  =yield_content :title
+
+-content_for :footer do
+  %p<
+    Server time:
+    =Time.now.strftime(' %Y %B %e %H:%M:%S')
+
+%p Running on Sinatra!

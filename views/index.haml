@@ -2,11 +2,19 @@
   Xing Zhou's Website
 
 -content_for :header do
-  %p=yield_content :title
+  %p Index
 
 -content_for :footer do
   %p<
     Server time:
     =Time.now.strftime(' %Y %B %e %H:%M:%S')
 
-%p Running on Sinatra!
+  %p Running on Sinatra!
+
+%ul
+  %li
+    %a{href: "todos"} Todo List
+  %li
+    %a{href: "planner"} Weekly Planner
+  %li
+    %a{href: "resume"} Resume

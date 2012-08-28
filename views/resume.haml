@@ -1,0 +1,21 @@
+-# Javascripts
+- content_for :js do
+  %script{type: "text/javascript",
+          src: "javascripts/resume.js"}
+
+-# Stylesheets
+- content_for :css do
+  %link{rel: "stylesheet", href: "stylesheets/resume.css"}
+
+- content_for :title do
+  Resume | Xing Zhou
+
+- content_for :header do
+  %p Xing Zhou
+
+- content_for :footer do
+  %p<
+    Updated:
+    August 2012
+
+=markdown(:resume)

@@ -1,3 +1,70 @@
-html { background: gray; }
-html p { color: white; }
-html footer { font-size: 1em; }
+/*
+Syntax error: File to import not found or unreadable: foundation.
+              Load path: /home/xing/Develop/blog.me/public/stylesheets/sass
+        on line 1 of ./public/stylesheets/sass/basic.scss
+
+1: @import 'foundation';
+2: 
+3: html {
+4:   background: gray;
+5: 
+6:   p {
+
+Backtrace:
+./public/stylesheets/sass/basic.scss:1
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/tree/import_node.rb:64:in `rescue in import'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/tree/import_node.rb:42:in `import'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/tree/import_node.rb:25:in `imported_file'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:227:in `rescue in visit_import'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:232:in `visit_import'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/tree/root_node.rb:20:in `render'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/engine.rb:315:in `_render'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/engine.rb:262:in `render'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/plugin/compiler.rb:340:in `update_stylesheet'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/plugin/compiler.rb:202:in `block in update_stylesheets'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/plugin/compiler.rb:200:in `each'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/plugin/compiler.rb:200:in `update_stylesheets'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/plugin.rb:81:in `update_stylesheets'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/plugin.rb:54:in `check_for_updates'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/sass-3.2.1/lib/sass/plugin/rack.rb:51:in `call'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/rack-1.4.1/lib/rack/lint.rb:48:in `_call'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/rack-1.4.1/lib/rack/lint.rb:36:in `call'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/rack-1.4.1/lib/rack/showexceptions.rb:24:in `call'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/rack-1.4.1/lib/rack/commonlogger.rb:20:in `call'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/shotgun-0.9/lib/shotgun/loader.rb:86:in `proceed_as_child'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/shotgun-0.9/lib/shotgun/loader.rb:31:in `call!'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/shotgun-0.9/lib/shotgun/loader.rb:18:in `call'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/shotgun-0.9/lib/shotgun/favicon.rb:12:in `call'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/shotgun-0.9/lib/shotgun/static.rb:14:in `call'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/rack-1.4.1/lib/rack/builder.rb:134:in `call'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/thin-1.4.1/lib/thin/connection.rb:80:in `block in pre_process'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/thin-1.4.1/lib/thin/connection.rb:78:in `catch'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/thin-1.4.1/lib/thin/connection.rb:78:in `pre_process'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/thin-1.4.1/lib/thin/connection.rb:53:in `process'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/thin-1.4.1/lib/thin/connection.rb:38:in `receive_data'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/thin-1.4.1/lib/thin/backends/base.rb:63:in `start'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/thin-1.4.1/lib/thin/server.rb:159:in `start'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/rack-1.4.1/lib/rack/handler/thin.rb:13:in `run'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/gems/shotgun-0.9/bin/shotgun:156:in `<top (required)>'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/bin/shotgun:23:in `load'
+/home/xing/.rvm/gems/ruby-1.9.3-p194@blog.me/bin/shotgun:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: foundation.\A               Load path: /home/xing/Develop/blog.me/public/stylesheets/sass\A         on line 1 of ./public/stylesheets/sass/basic.scss\A \A 1: @import 'foundation';\A 2: \A 3: html {\A 4:   background: gray;\A 5: \A 6:   p {"; }

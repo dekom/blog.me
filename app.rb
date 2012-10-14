@@ -1,7 +1,3 @@
-# Gems
-require "haml"
-require "redcarpet"
-
 # Module Settings
 set :haml, format: :html5
 
@@ -15,6 +11,10 @@ get "/" do
 end
 
 get "/favicon.ico" do
+end
+
+get "/docs/:name" do
+  haml params[:name].to_sym
 end
 
 get "/:name" do

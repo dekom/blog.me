@@ -7,6 +7,9 @@ require "sinatra"
 require "sinatra/content_for2"
 require "app"
 require "sass/plugin/rack"
+require "haml"
+require "redcarpet"
+require "zurb-foundation"
 
 set run: false
 set raise_erros: true

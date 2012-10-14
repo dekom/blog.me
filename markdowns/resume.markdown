@@ -13,8 +13,8 @@ Pittsburgh, PA 15289
 
 <section>
 ## Permanent Address
-5440 Fifths Avenue  
-Apt 9  
+5440 Fifth Avenue  
+Apt. 9  
 Pittsburgh, PA 15232  
 </section>
 
